@@ -1,4 +1,5 @@
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,7 +10,8 @@ public class TecAdminSeleniumTest {
 
 	public static WebDriver driver;
 
-	public static void main(String[] args) {
+	@Test
+	public void Test() {
 
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
